@@ -1,12 +1,4 @@
-$(document).ready(function () {
-    $('.forgot-pass').click(function(event) {
-      $(".pr-wrap").toggleClass("show-pass-reset");
-    }); 
-    
-    $('.pass-reset-submit').click(function(event) {
-      $(".pr-wrap").removeClass("show-pass-reset");
-    }); 
-});
+
 function kayitOl(){
 localStorage.setItem('kullaniciAdi',document.getElementById('kullaniciAdi').value);
 localStorage.setItem('sifre',document.getElementById('sifre').value);
@@ -20,14 +12,4 @@ if(document.getElementById('kullanici').value == localStorage.getItem('kullanici
     alert('Kullanici adi veya şifre hatalı');
 }
 }
-
-$(document).ready(function () {
-    $('.forgot-pass').click(function(event) {
-      $(".pr-wrap").toggleClass("show-pass-reset");
-    }); 
-    
-    $('.pass-reset-submit').click(function(event) {
-      $(".pr-wrap").removeClass("show-pass-reset");
-    }); 
-});
 
