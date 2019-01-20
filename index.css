@@ -257,3 +257,19 @@ margin-top: -18rem;
     border: 2px solid black;
     
 }
+
+.ustaraf{
+margin-left: 180px;
+    width: 48rem;
+   
+    height: 6rem;
+    background-repeat: no-repeat;
+    background-image: url(ustaraf.jpg);
+}
+
+.bilgiler{
+    width: 48.1rem;
+    height: 100rem;
+    border: 3px solid black;
+    margin-left: 11.2rem; 
+}
